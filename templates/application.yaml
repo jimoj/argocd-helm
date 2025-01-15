@@ -11,8 +11,8 @@ spec:
     targetRevision: {{ .targetRevision }}
     path: {{ .path }}
     destination:
-    server: {{ .destination.server | default "https://kubernetes.default.svc" }}
-    namespace: {{ .destination.namespace | default "default" }}
+      server: {{ .destination.server | default "https://kubernetes.default.svc" }}
+      namespace: {{ .destination.namespace | default "default" }}
   syncPolicy:
     automated:
       prune: {{ .syncPolicy.prune | default true }}
