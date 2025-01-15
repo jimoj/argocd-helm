@@ -10,9 +10,9 @@ spec:
     repoURL: {{ .repoURL }}
     targetRevision: {{ .targetRevision }}
     path: {{ .path }}
-    destination:
-      server: {{ .destination.server | default "https://kubernetes.default.svc" }}
-      namespace: {{ .destination.namespace | default "default" }}
+  destination:
+    server: {{ .destination.server | default "https://kubernetes.default.svc" }}
+    namespace: {{ .destination.namespace | default "default" }}
   syncPolicy:
     automated:
       prune: {{ .syncPolicy.prune | default true }}
