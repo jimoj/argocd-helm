@@ -1,0 +1,6 @@
+applications:
+  - name: app1
+    repoURL: "https://github.com/jimoj/app1-helm"
+    targetRevision: "main"
+    path: "kubernetes/app1"
+ 
