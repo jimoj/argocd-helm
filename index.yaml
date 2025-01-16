@@ -7,6 +7,6 @@ entries:
     digest: fc725614d17b91a1d9164f5be798fbd775f1e29d82a9b8cdb6021fa3baac4741
     name: argocd-apps
     urls:
-    - https://jimoj.github.io/argocd-helm/argocd-apps-0.1.0.tgz
+    - https://jimoj.github.io/argocd-helm/argocd-apps-0.2.0.tgz
     version: 0.2.0
 generated: "2025-01-15T18:15:39.7649987+01:00"
