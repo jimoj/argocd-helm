@@ -4,7 +4,7 @@ applications:
     targetRevision: "main"
     path: "."
     destination:
-      server: https://192.168.49.2:8443
+      server: kubernetes.default.svc
       namespace: dev
     syncPolicy:
       automated:
