@@ -8,5 +8,5 @@ entries:
     name: argocd-apps
     urls:
     - https://jimoj.github.io/argocd-helm/argocd-apps-0.1.0.tgz
-    version: 0.1.0
+    version: 0.2.0
 generated: "2025-01-15T18:15:39.7649987+01:00"
